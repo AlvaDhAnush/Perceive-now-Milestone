@@ -8,7 +8,7 @@ import { useTelemetry, logUserAction } from '../hooks/useTelemetry'
 import { format } from 'date-fns'
 
 export default function AdminConsole() {
-  const { user, hasPermission } = useAuth()
+  const { user } = useAuth()
   const [showLogin, setShowLogin] = useState(false)
   const { metrics, isLoading } = useMetrics()
 

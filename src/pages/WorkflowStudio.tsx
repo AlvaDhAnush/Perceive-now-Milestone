@@ -59,7 +59,7 @@ function WorkflowCanvas() {
         fitView
         attributionPosition="bottom-left"
       >
-        <Background color="#e5e7eb" gap={16} variant="dots" />
+        <Background color="#e5e7eb" gap={16} />
         <Controls className="bg-white/80 backdrop-blur-sm border border-gray-200 rounded-lg shadow-lg" />
         <MiniMap
           nodeColor={(node: any) => {
